@@ -1068,7 +1068,25 @@ Main Content
 WooCommerce Themes
 --------------------------------------------*/
 
+.wp-block-group h2 {
+	margin: 4rem 0 1rem;
+	font-size: 26px;
+	text-align: center;
+}
 
+.wp-block-group a {
+	font-size: 12px;
+	text-decoration: none;
+	color: #202020;
+}
+
+.wp-block-group a:hover {
+	text-decoration: underline;
+}
+
+.wp-block-group p {
+	text-align: center;
+}
 
 .wp-block-button a {
 	color: #fafafa;
@@ -1084,14 +1102,25 @@ WooCommerce Themes
 	margin-bottom: 2rem;
 }
 
+.wc-block-grid__product-title {
+	font-weight: 300;
+	color: #202020;
+}
+
+.wc-block-grid__product a {
+	text-decoration: none;
+}
+
 .wc-block-grid__product-add-to-cart {
 	margin: 0;
 }
 
 
 
-.wc-block-featured-category__title {
-}
+
+/*
+* Product Page 
+*/
 
 .woocommerce-products-header {
 	text-align: center;
@@ -1532,5 +1561,28 @@ Normal Desktop Layout
 		padding-left: 1rem;
 		flex-basis: 50%;
 	}
+
+
+
+
+		/* 
+	* Featured Category Styles
+	*/
+/* 
+	.wc-block-featured-category {
+		width: 58%;
+		max-height: 314px;
+	}
+
+	.wc-block-featured-category .wc-block-featured-category__description,
+	.wc-block-featured-category .wc-block-featured-category__price,
+	.wc-block-featured-category .wc-block-featured-category__title {
+		color: #202020;
+	}
+	
+	.wc-block-featured-category__title, .wc-block-featured-category__description, .wc-block-featured-category__link {
+		position: relative;
+		left: 92%;
+	} */
 
 }
